@@ -1,0 +1,107 @@
+.headerContainer{
+  width: auto;
+  height: 100vh;
+  background-color: var(--gray-200);
+}
+
+.headerFlex{
+  background-image: url("../assets/images/Background_Intro.png");
+  background-size: cover;
+  padding-top: 64px;
+}
+
+.headerPic{
+  position: relative;
+  border-radius:100%;
+  width:120px;
+  padding: 4px;
+  border: 3px solid var(--red)
+}
+
+.picContainer{
+  position: relative;
+}
+
+.headerDescription{
+  max-width: 700px;
+  padding-top: 54px;
+  padding-bottom: 70px;
+}
+
+.headerIntro{
+  color: var(--gray-500);
+  font-family: var(--font-subtitle);
+  font-size: var(--subtitle);
+}
+
+.headerTitle{
+  color: var(--gray-600);
+  font-family: var(--font-title);
+  font-size: var(--title-lg);
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.headerText{
+  color:var(--gray-400);
+  font-family: var(--font-text);
+  font-size: var(--text-sm);
+  line-height: 140%;
+}
+
+.nameDecoration{
+  color: var(--red);
+}
+
+.listIcons{
+  display: flex;
+  gap: 16px;
+}
+
+.iconList{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--gray-300);
+  border-radius: 99px;
+  text-align: center;
+  padding: 6px 16px;
+}
+
+.iconList p{
+  font-family: var(--font-text);
+  font-size: var(--text-md);
+  color: var(--gray-500);
+  line-height: 140%;
+  margin-left: 8px;
+}
+
+.htmlIcon{
+  filter: brightness(0) saturate(100%) invert(59%) sepia(32%) saturate(2567%) hue-rotate(314deg) brightness(91%) contrast(96%);
+}
+
+.cssIcon{
+  filter: brightness(0) saturate(100%) invert(63%) sepia(31%) saturate(6361%) hue-rotate(181deg) brightness(93%) contrast(84%);
+}
+
+.javascriptIcon{
+  filter: brightness(0) saturate(100%) invert(97%) sepia(53%) saturate(5037%) hue-rotate(313deg) brightness(98%) contrast(87%);
+}
+
+.reactIcon{
+  filter: brightness(0) saturate(100%) invert(63%) sepia(31%) saturate(6361%) hue-rotate(181deg) brightness(93%) contrast(84%);
+}
+
+.nodeIcon{
+  filter: brightness(0) saturate(100%) invert(73%) sepia(63%) saturate(405%) hue-rotate(44deg) brightness(86%) contrast(83%);
+}
+
+.navButton{
+  margin-top: 300px;
+}
+
+.navButton:hover{
+  filter: brightness(0) saturate(100%) invert(63%) sepia(31%) saturate(6361%) hue-rotate(181deg) brightness(93%) contrast(84%);
+}

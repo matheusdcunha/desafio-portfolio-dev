@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <title>Portfolio Dev</title>
+</head>
+
+<body>
+  <header class="headerContainer">
+    <div class="flex headerFlex">
+      <div class="picContainer">
+        <img class="headerPic" src="./assets/images/profile_pic.jpg" alt="Luke Skywalker">
+      </div>
+      <div class="headerDescription">
+        <p class="headerIntro">Hello World! Meu nome é <span class="nameDecoration">Matheus da Cunha</span> e sou</p>
+        <h1 class="headerTitle">Desenvolvedor Fullstack</h1>
+        <p class="headerText">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+      </div>
+      <div class="headerIcons">
+        <ul class="listIcons">
+          <li class="iconList"><img src="./assets/icons/GitHub.svg" alt=""><p>GitHub</p></li>
+          <li class="iconList"><img class="htmlIcon"  src="./assets/icons/HTML.svg" alt=""><p>HTML</p></li>
+          <li class="iconList"><img class="cssIcon" src="./assets/icons/CSS.svg" alt=""><p>CSS</p></li>
+          <li class="iconList"><img class="javascriptIcon" src="./assets/icons/JavaScript.svg" alt=""><p>Javascript</p></li>
+          <li class="iconList"><img class="reactIcon" src="./assets/icons/React.svg" alt=""><p>React</p></li>
+          <li class="iconList"><img class="nodeIcon" src="./assets/icons/Node.js.svg" alt=""><p>Node.js</p></li>
+        </ul>
+      </div>
+      <a href="#mainContainer" class="navButton">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#878EA1" viewBox="0 0 256 256">
+          <path d="M213.66,130.34a8,8,0,0,1,0,11.32l-80,80a8,8,0,0,1-11.32,0l-80-80a8,8,0,0,1,11.32-11.32L128,204.69l74.34-74.35A8,8,0,0,1,213.66,130.34Zm-91.32,11.32a8,8,0,0,0,11.32,0l80-80a8,8,0,0,0-11.32-11.32L128,124.69,53.66,50.34A8,8,0,0,0,42.34,61.66Z">
+          </path>
+        </svg>
+      </a>
+    </div>
+  </header>
+  <main id="mainContainer" class="flex">
+    <div class="mainTitle">
+      <p class="subtitle">Meu trabalho</p>
+      <h2 class="titleMain">Veja os projetos em destaque</h2>
+    </div>
+    <div>
+      <ul class="mainGrid">
+        <li>
+          <a href="">
+          <img src="./assets/images/Thumbnail_Project-01.png" alt="">
+          <div>
+            <h5>Travelgram</h5>
+            <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="./assets/images/Thumbnail_Project-02.png" alt="">
+          <div>
+            <h5>Tech News</h5>
+            <p>Homepage de um portal de notícias sobre a área de tecnologia</p>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="./assets/images/Thumbnail_Project-03.png" alt="">
+          <div>
+            <h5>Página de receita</h5>
+            <p>Página com o passo a passo de uma receita para cupcakes</p>
+          </div>
+        </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="./assets/images/Thumbnail_Project-04.png" alt="">
+          <div>
+            <h5>Zingen</h5>
+            <p>Landing Page completa e responsiva de um aplicativo de Karaokê</p>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="./assets/images/Thumbnail_Project-05.png" alt="">
+          <div>
+            <h5>Refund</h5>
+            <p>Um sistema para pedido e acompanhamento de reembolso </p>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <img src="./assets/images/Thumbnail_Project-06.png" alt="">
+          <div>
+            <h5>Página de turismo</h5>
+            <p>Página com as principais informações para quem quer viajar para Busan</p>
+          </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <section class="sectionContainer flex">
+    <div class="sectionTitle">
+      <p class="subtitle">Meus serviços</p>
+      <h2 class="titleSection">Como posso ajudar o seu negócio</h2>
+    </div>
+    <div class="sectionCards">
+      <div class="cardSection web">
+        <img src="./assets/icons/devices.svg" alt="">
+        <h5>Websites e Aplicativos</h5>
+        <p>Desenvolvimento de interfaces</p>
+      </div>
+      <div class="cardSection api">
+        <img src="./assets/icons/hard-drives.svg" alt="">
+        <h5>API e banco de dados</h5>
+        <p>Criação de serviços do sistema </p>
+      </div>
+      <div class="cardSection devops">
+        <img src="./assets/icons/infinity.svg" alt="">
+        <h5>DevOps</h5>
+        <p>Gestão e infraestrutura da aplicação</p>
+      </div>
+    </div>
+  </section>
+  <footer class="footerContainer flex">
+    <div class="footerTitle">
+      <p class="subtitle subtitleFooter">Contato</p>
+      <h2 class="titleFooter">Gostou do meu trabalho? </h2>
+      <p class="footerDesc">Entre em contato ou acompanhe as minhas redes sociais!</p>
+    </div>
+    <div class="footerCards">
+      <a href="" class="cardFooter">
+        <div class="cardImgFooter">
+          <img src="./assets/icons/linkedin-logo.svg" alt="">
+          <p>Linkedin</p>
+        </div>
+        <img class="arrow" src="./assets/icons/arrow-up-right.svg" alt="">
+      </a>
+      <a href="" class="cardFooter">
+        <div class="cardImgFooter">
+          <img src="./assets/icons/instagram-logo.svg" alt="">
+          <p>Instagram</p>
+        </div>
+        <img class="arrow" src="./assets/icons/arrow-up-right.svg" alt="">
+      </a>
+      <a href="" class="cardFooter">
+        <div class="cardImgFooter">
+          <img src="./assets/icons/github-logo.svg" alt="">
+          <p>GitHub</p>
+        </div>
+        <img class="arrow" src="./assets/icons/arrow-up-right.svg" alt="">
+      </a>
+      <a href="" class="cardFooter">
+        <div class="cardImgFooter">
+          <img src="./assets/icons/envelope-simple.svg" alt="">
+          <p>E-mail</p>
+        </div>
+        <img class="arrow" src="./assets/icons/arrow-up-right.svg" alt="">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>

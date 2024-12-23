@@ -1,0 +1,38 @@
+:root{
+  --red: #E3646E;
+  --purple: #BB72E9;
+  --blue: #3996DB;
+  --green: #82BC4F;
+  --yellow: #EABD5F;
+
+  --gray-100:#0D0E11;
+  --gray-200:#16181D;
+  --gray-300:#292C34;
+  --gray-400:#878EA1;
+  --gray-500:#C0C4CE;
+  --gray-600:#E2E4E9;
+
+  --font-title:"Asap", serif;
+  --title-lg: 3.5rem;
+  --title-md: 1.5rem;
+  --title-sm: 1rem;
+
+  --font-subtitle: "Inconsolata", serif;
+  --subtitle: 20px;
+  
+  --font-text: "Maven Pro", serif;
+  --text-md: 1rem;
+  --text-sm: 0.875rem;
+}
+
+.flex{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container{
+  margin: 0 164px;
+}
